@@ -34,3 +34,9 @@ docker run -d -p 8080:80 phuc1305/frontend:latest
 ### Câu 7. Triển khai frontend lên Render
 - Tên dịch vụ: web-235646
 - URL Frontend: https://web-235646.onrender.com
+
+### Câu 8. Triển khai backend lên Render
+- Tên dịch vụ: api-235646
+- URL Backend: https://api-235646.onrender.com
+- Endpoint Health: https://api-235646.onrender.com/health
+- API Danh sách thiết bị: https://api-235646.onrender.com/api/devices
