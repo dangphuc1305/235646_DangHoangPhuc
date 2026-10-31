@@ -30,3 +30,7 @@ docker run -d -p 5000:5000 -e PORT=5000 -e MONGODB_URI="mongodb+srv://235646_Dan
 docker pull phuc1305/frontend:latest
 docker run -d -p 8080:80 phuc1305/frontend:latest
 ```
+
+### Câu 7. Triển khai frontend lên Render
+- Tên dịch vụ: web-235646
+- URL Frontend: https://web-235646.onrender.com
