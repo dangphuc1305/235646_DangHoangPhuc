@@ -24,3 +24,9 @@ Hệ thống quản lý thông tin thiết bị phòng học, theo dõi trạng 
 docker pull phuc1305/backend:latest
 docker run -d -p 5000:5000 -e PORT=5000 -e MONGODB_URI="mongodb+srv://235646_DangHoangPhuc:phuc123@cluster0.ht1auwu.mongodb.net/235646_DangHoangPhuc?retryWrites=true&w=majority" phuc1305/backend:latest
 ```
+
+### Hướng dẫn chạy Frontend bằng Docker
+```bash
+docker pull phuc1305/frontend:latest
+docker run -d -p 8080:80 phuc1305/frontend:latest
+```
